@@ -1,0 +1,29 @@
+# Workflow for automatic deployment to GitHub Pages
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3  # Checkout code
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Node.js version
+      - name: Install dependencies
+        run: npm ci
+      - name: Build Tailwind CSS
+        run: npm run build:css  # Compile styles
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages  # Deployment branch
+          folder: public    # Directory to publish
+          clean: true       # Remove existing files before deploying
