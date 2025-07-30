@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
-                      https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- Página principal -->
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+                            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://TU-DOMINIO.com/</loc>
     <lastmod>2025-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Anclas internas -->
   <url>
     <loc>https://TU-DOMINIO.com/#beneficios</loc>
     <priority>0.8</priority>
@@ -34,5 +29,4 @@
     <loc>https://TU-DOMINIO.com/#contacto</loc>
     <priority>0.8</priority>
   </url>
-
 </urlset>
