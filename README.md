@@ -1,7 +1,7 @@
 # landingPageDISPENSER
 
 ## Project Description
-A landing page showcasing a dispenser product. It uses Tailwind CSS for styling and minimal JavaScript for interactivity.
+Landing page for a dispenser product built with Tailwind CSS and minimal JavaScript.
 
 ## Requirements
 - [Node.js](https://nodejs.org/) and `npm`
@@ -12,7 +12,7 @@ Install dependencies:
 npm install
 ```
 
-## Build CSS
+## Build Tailwind CSS
 Create the production CSS once:
 ```bash
 npm run build:css
