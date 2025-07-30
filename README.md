@@ -7,7 +7,8 @@ A simple landing page promoting a water dispenser solution. The project uses HTM
 - [Node.js](https://nodejs.org/) and `npm` for building the CSS assets.
 
 ## Installation
-Install the dependencies defined in `package.json`:
+After cloning the repository, install the dependencies defined in
+`package.json` by running:
 
 ```bash
 npm install
