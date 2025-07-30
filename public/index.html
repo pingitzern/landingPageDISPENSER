@@ -94,18 +94,34 @@
   </section>
 
   <!-- Testimonios -->
-  <section class="container mx-auto px-4 py-16">
-    <h2 class="text-2xl font-bold text-center mb-8">Testimonios</h2>
-    <!-- TODO: Carrusel de testimonios -->
-    <div id="testimonios" class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide p-4 bg-gray-100 rounded shadow">Testimonio 1</div>
-        <div class="swiper-slide p-4 bg-gray-100 rounded shadow">Testimonio 2</div>
-        <div class="swiper-slide p-4 bg-gray-100 rounded shadow">Testimonio 3</div>
+  <section id="testimonios" class="py-16 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-8">Lo que dicen nuestros clientes</h2>
+    <div class="relative max-w-4xl mx-auto px-6">
+      <div class="overflow-hidden">
+        <div class="flex transition-transform duration-500" data-carousel>
+          <div class="min-w-full p-6 bg-white rounded-lg shadow-sm">
+            <img src="./assets/images/testimonials/cliente1.png" alt="Testimonio 1" class="w-24 h-24 rounded-full mx-auto mb-4">
+            <p class="text-gray-700 italic text-center">"Breve cita del cliente 1..."</p>
+            <p class="text-center font-semibold mt-2">Nombre 1, Cargo, Empresa</p>
+          </div>
+          <div class="min-w-full p-6 bg-white rounded-lg shadow-sm">
+            <img src="./assets/images/testimonials/cliente2.png" alt="Testimonio 2" class="w-24 h-24 rounded-full mx-auto mb-4">
+            <p class="text-gray-700 italic text-center">"Breve cita del cliente 2..."</p>
+            <p class="text-center font-semibold mt-2">Nombre 2, Cargo, Empresa</p>
+          </div>
+          <div class="min-w-full p-6 bg-white rounded-lg shadow-sm">
+            <img src="./assets/images/testimonials/cliente3.png" alt="Testimonio 3" class="w-24 h-24 rounded-full mx-auto mb-4">
+            <p class="text-gray-700 italic text-center">"Breve cita del cliente 3..."</p>
+            <p class="text-center font-semibold mt-2">Nombre 3, Cargo, Empresa</p>
+          </div>
+        </div>
       </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <button data-carousel-prev class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100">
+        ‹
+      </button>
+      <button data-carousel-next class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100">
+        ›
+      </button>
     </div>
   </section>
 
