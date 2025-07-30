@@ -1,0 +1,19 @@
+# Editor swap files and backups
+*.swp
+*.swo
+*.sw?
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Dependency directories
+node_modules/
+
