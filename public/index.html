@@ -10,30 +10,33 @@
 <body class="font-sans antialiased">
   <!-- Header -->
   <header class="bg-white shadow">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-xl font-bold">
-        <!-- TODO: Logo -->
-        Logo
-      </div>
-      <nav>
-        <ul class="flex space-x-4">
-          <!-- TODO: Ítems de nav -->
-          <li><a href="#" class="text-gray-700 hover:text-blue-600">Inicio</a></li>
-          <li><a href="#beneficios" class="text-gray-700 hover:text-blue-600">Beneficios</a></li>
-          <li><a href="#precios" class="text-gray-700 hover:text-blue-600">Precios</a></li>
-          <li><a href="#contacto" class="text-gray-700 hover:text-blue-600">Contacto</a></li>
-        </ul>
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <img src="./assets/images/logo-ohm-dispense.png" alt="OHM Dispenser" class="h-10">
+      <nav class="flex items-center space-x-6">
+        <a href="#beneficios" class="text-gray-700 hover:text-blue-600">Beneficios</a>
+        <a href="#como-funciona" class="text-gray-700 hover:text-blue-600">Cómo Funciona</a>
+        <a href="#precios" class="text-gray-700 hover:text-blue-600">Precios</a>
+        <a href="#testimonios" class="text-gray-700 hover:text-blue-600">Testimonios</a>
+        <a href="#contacto" class="ml-4 px-4 py-2 rounded bg-[#2563EB] text-white hover:bg-blue-700">Contáctanos</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="relative bg-gray-100" style="min-height: 60vh;">
-    <!-- TODO: Imagen de fondo -->
-    <div class="container mx-auto px-4 py-20 text-center">
-      <h1 class="text-3xl md:text-5xl font-bold mb-4">Despídete de los bidones</h1>
-      <p class="text-lg md:text-2xl mb-8">Agua fría y caliente al instante con filtración profesional</p>
-      <a href="#formulario" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">Solicita tu cotización</a>
+  <section id="hero" class="h-screen bg-cover bg-center flex items-center" style="background-image: url('./assets/images/hero-bg-office.png');">
+    <div class="max-w-2xl mx-auto px-4 text-center text-white">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Despídete de los bidones: agua fría y caliente al instante
+      </h1>
+      <p class="mb-8 text-lg md:text-xl">
+        Filtración y ósmosis inversa para tu empresa, sin plásticos desechables.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#cotizacion" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md">Solicita tu cotización</a>
+        <a href="https://wa.me/" class="flex items-center justify-center bg-white/60 px-6 py-3 rounded-md">
+          <img src="./assets/icons/whatsapp.svg" alt="WhatsApp" class="w-5 h-5 mr-2">
+          Whatsapp
+        </a>
+      </div>
     </div>
   </section>
 
@@ -85,7 +88,7 @@
   </section>
 
   <!-- Cómo funciona -->
-  <section class="bg-gray-50 py-16">
+  <section id="como-funciona" class="bg-gray-50 py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-2xl font-bold text-center mb-8">Cómo funciona</h2>
       <div class="grid md:grid-cols-4 gap-4">
