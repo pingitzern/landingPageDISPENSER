@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dispenser frío/calor vs bidones</title>
+  <link href="./assets/styles.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold">
+        <!-- TODO: Logo -->
+        Logo
+      </div>
+      <nav>
+        <ul class="flex space-x-4">
+          <!-- TODO: Ítems de nav -->
+          <li><a href="#" class="text-gray-700 hover:text-blue-600">Inicio</a></li>
+          <li><a href="#beneficios" class="text-gray-700 hover:text-blue-600">Beneficios</a></li>
+          <li><a href="#precios" class="text-gray-700 hover:text-blue-600">Precios</a></li>
+          <li><a href="#contacto" class="text-gray-700 hover:text-blue-600">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gray-100" style="min-height: 60vh;">
+    <!-- TODO: Imagen de fondo -->
+    <div class="container mx-auto px-4 py-20 text-center">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">Despídete de los bidones</h1>
+      <p class="text-lg md:text-2xl mb-8">Agua fría y caliente al instante con filtración profesional</p>
+      <a href="#formulario" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">Solicita tu cotización</a>
+    </div>
+  </section>
+
+  <!-- Pain Points vs Beneficios -->
+  <section id="beneficios" class="container mx-auto px-4 py-16">
+    <h2 class="text-2xl font-bold text-center mb-8">Pain Points vs Beneficios</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Pain Points</h3>
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <!-- TODO: Ícono -->
+            <span class="mr-2">🔴</span>
+            <span>Entregas periódicas y riesgo de quiebre de stock</span>
+          </li>
+          <li class="flex items-start">
+            <!-- TODO: Ícono -->
+            <span class="mr-2">🔴</span>
+            <span>Almacenaje de bidones ocupa espacio</span>
+          </li>
+          <li class="flex items-start">
+            <!-- TODO: Ícono -->
+            <span class="mr-2">🔴</span>
+            <span>Costos recurrentes altos</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Beneficios del Dispenser</h3>
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <!-- TODO: Ícono -->
+            <span class="mr-2">🟢</span>
+            <span>Agua ilimitada sin interrupciones</span>
+          </li>
+          <li class="flex items-start">
+            <!-- TODO: Ícono -->
+            <span class="mr-2">🟢</span>
+            <span>Solo ocupa el espacio del equipo</span>
+          </li>
+          <li class="flex items-start">
+            <!-- TODO: Ícono -->
+            <span class="mr-2">🟢</span>
+            <span>Menores costos de mantenimiento</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-8">Cómo funciona</h2>
+      <div class="grid md:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded shadow">
+          <!-- TODO: Diagrama paso 1 -->
+          <h3 class="font-semibold mb-2">Paso 1</h3>
+          <p>Conexión a la red o pozo</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <!-- TODO: Diagrama paso 2 -->
+          <h3 class="font-semibold mb-2">Paso 2</h3>
+          <p>Filtración y decloración</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <!-- TODO: Diagrama paso 3 -->
+          <h3 class="font-semibold mb-2">Paso 3</h3>
+          <p>Ósmosis inversa opcional</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <!-- TODO: Diagrama paso 4 -->
+          <h3 class="font-semibold mb-2">Paso 4</h3>
+          <p>Dispenser frío y calor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="container mx-auto px-4 py-16">
+    <h2 class="text-2xl font-bold text-center mb-8">Testimonios</h2>
+    <!-- TODO: Carrusel de testimonios -->
+    <div id="testimonios" class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide p-4 bg-gray-100 rounded shadow">Testimonio 1</div>
+        <div class="swiper-slide p-4 bg-gray-100 rounded shadow">Testimonio 2</div>
+        <div class="swiper-slide p-4 bg-gray-100 rounded shadow">Testimonio 3</div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <!-- Tabla comparativa -->
+  <section id="precios" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-8">Bidones vs Dispenser</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-left border">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="px-4 py-2">Concepto</th>
+              <th class="px-4 py-2">Bidones</th>
+              <th class="px-4 py-2">Dispenser</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border px-4 py-2">Costo mensual</td>
+              <td class="border px-4 py-2"><!-- TODO: Precio bidones --></td>
+              <td class="border px-4 py-2"><!-- TODO: Precio dispenser --></td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border px-4 py-2">Costo anual</td>
+              <td class="border px-4 py-2"><!-- TODO: Precio bidones anual --></td>
+              <td class="border px-4 py-2"><!-- TODO: Precio dispenser anual --></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section id="formulario" class="container mx-auto px-4 py-16">
+    <h2 class="text-2xl font-bold text-center mb-8">Calcula tu ahorro</h2>
+    <form class="max-w-lg mx-auto space-y-4">
+      <div>
+        <label class="block text-sm font-medium mb-1" for="nombre">Nombre</label>
+        <input id="nombre" type="text" class="w-full border px-3 py-2 rounded" placeholder="Tu nombre">
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1" for="email">Email</label>
+        <input id="email" type="email" class="w-full border px-3 py-2 rounded" placeholder="tu@empresa.com">
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1" for="cantidad">Cantidad de empleados</label>
+        <input id="cantidad" type="number" class="w-full border px-3 py-2 rounded" placeholder="Ej: 50">
+      </div>
+      <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FAQs -->
+  <section class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-8">Preguntas frecuentes</h2>
+      <div id="faq" class="space-y-4">
+        <div class="border rounded">
+          <button class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
+            <span>¿Instalan en todo el país?</span>
+            <span class="ml-2">+</span>
+          </button>
+          <div class="p-4 hidden">
+            <!-- TODO: Respuesta -->
+            Sí, contamos con red de instaladores en todo el país.
+          </div>
+        </div>
+        <!-- TODO: Más FAQs -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto" class="bg-gray-800 text-white py-8 relative">
+    <div class="container mx-auto px-4 text-center space-y-4">
+      <p>© <!-- TODO: Año --> Compañía. Todos los derechos reservados.</p>
+      <p><!-- TODO: Datos de contacto --></p>
+    </div>
+    <a href="https://wa.me/" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg" target="_blank" rel="noopener">
+      <!-- TODO: Ícono WhatsApp -->
+      WhatsApp
+    </a>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
