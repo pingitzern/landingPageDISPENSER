@@ -128,26 +128,36 @@
   <!-- Tabla comparativa -->
   <section id="precios" class="bg-gray-50 py-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold text-center mb-8">Bidones vs Dispenser</h2>
+      <h2 class="text-3xl font-bold text-center mb-8">Comparativa de Costos</h2>
       <div class="overflow-x-auto">
-        <table class="min-w-full text-left border">
+        <table class="min-w-full bg-white rounded-lg shadow-sm">
           <thead>
-            <tr class="bg-gray-200">
-              <th class="px-4 py-2">Concepto</th>
-              <th class="px-4 py-2">Bidones</th>
-              <th class="px-4 py-2">Dispenser</th>
+            <tr class="bg-gray-100 text-center">
+              <th class="px-6 py-3 text-left">Concepto</th>
+              <th class="px-6 py-3">
+                <div class="flex items-center justify-center gap-2">
+                  <img src="./assets/icons/icon-bidones.png" alt="Bidones" class="w-6 h-6">
+                  <span>Bidones</span>
+                </div>
+              </th>
+              <th class="px-6 py-3">
+                <div class="flex items-center justify-center gap-2">
+                  <img src="./assets/icons/icon-dispenser.png" alt="Dispenser" class="w-6 h-6">
+                  <span>Dispenser</span>
+                </div>
+              </th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="border px-4 py-2">Costo mensual</td>
-              <td class="border px-4 py-2"><!-- TODO: Precio bidones --></td>
-              <td class="border px-4 py-2"><!-- TODO: Precio dispenser --></td>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="even:bg-gray-50">
+              <td class="px-6 py-4">Costo mensual</td>
+              <td class="px-6 py-4 text-center"><!-- TODO: Precio bidones --></td>
+              <td class="px-6 py-4 text-center"><!-- TODO: Precio dispenser --></td>
             </tr>
-            <tr class="bg-gray-50">
-              <td class="border px-4 py-2">Costo anual</td>
-              <td class="border px-4 py-2"><!-- TODO: Precio bidones anual --></td>
-              <td class="border px-4 py-2"><!-- TODO: Precio dispenser anual --></td>
+            <tr class="even:bg-gray-50">
+              <td class="px-6 py-4">Costo anual</td>
+              <td class="px-6 py-4 text-center"><!-- TODO: Precio bidones anual --></td>
+              <td class="px-6 py-4 text-center"><!-- TODO: Precio dispenser anual --></td>
             </tr>
           </tbody>
         </table>
