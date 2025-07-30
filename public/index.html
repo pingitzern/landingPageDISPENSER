@@ -205,18 +205,38 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer id="contacto" class="bg-gray-800 text-white py-8 relative">
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-white py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-8">Contáctanos</h2>
+      <form class="max-w-lg mx-auto space-y-4">
+        <div>
+          <label for="contacto-nombre" class="block text-sm font-medium mb-1">Nombre</label>
+          <input id="contacto-nombre" type="text" class="w-full border px-3 py-2 rounded" placeholder="Tu nombre">
+        </div>
+        <div>
+          <label for="contacto-email" class="block text-sm font-medium mb-1">Email</label>
+          <input id="contacto-email" type="email" class="w-full border px-3 py-2 rounded" placeholder="tu@empresa.com">
+        </div>
+        <div>
+          <label for="contacto-mensaje" class="block text-sm font-medium mb-1">Mensaje</label>
+          <textarea id="contacto-mensaje" class="w-full border px-3 py-2 rounded" placeholder="¿En qué podemos ayudarte?"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-8 relative">
     <div class="container mx-auto px-4 text-center space-y-4">
-      <p>© <!-- TODO: Año --> Compañía. Todos los derechos reservados.</p>
-      <p><!-- TODO: Datos de contacto --></p>
+      <p>&copy; 2025 OHM Instrumental. Todos los derechos reservados.</p>
+      <p><a href="mailto:contacto@ohminstrumental.com" class="underline">contacto@ohminstrumental.com</a></p>
     </div>
     <a href="https://wa.me/" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg" target="_blank" rel="noopener">
-      <!-- TODO: Ícono WhatsApp -->
       WhatsApp
     </a>
   </footer>
-
   <script src="./scripts/main.js"></script>
 </body>
 </html>
