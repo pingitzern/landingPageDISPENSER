@@ -14,7 +14,28 @@ export function initFaqAccordion() {
 
 // Placeholder para inicializar el slider de testimonios
 export function initTestimonialsSlider() {
-  // TODO: implementar slider de testimonios (por ejemplo, con Swiper.js)
+  const container = document.querySelector('#testimonios [data-carousel]');
+  const prevBtn = document.querySelector('#testimonios [data-carousel-prev]');
+  const nextBtn = document.querySelector('#testimonios [data-carousel-next]');
+
+  if (!container || !prevBtn || !nextBtn) return;
+
+  const slides = container.children;
+  let index = 0;
+
+  const update = () => {
+    container.style.transform = `translateX(-${index * 100}%)`;
+  };
+
+  prevBtn.addEventListener('click', () => {
+    index = (index - 1 + slides.length) % slides.length;
+    update();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    index = (index + 1) % slides.length;
+    update();
+  });
 }
 
 // Ejecutar al cargar la página
