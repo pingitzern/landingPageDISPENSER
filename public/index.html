@@ -48,14 +48,14 @@
   <body class="font-sans antialiased">
     <!-- Header -->
     <header class="bg-white shadow">
-      <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between">
         <img
           src="./assets/images/logo-ohm-dispense.png"
           alt="OHM Dispenser"
           class="h-12"
           style="max-width:200px; height:auto;"
         />
-        <nav class="flex flex-1 justify-center items-center space-x-8">
+        <nav class="flex flex-col md:flex-row flex-1 justify-center items-center space-y-2 md:space-y-0 md:space-x-8">
           <a
             href="#beneficios"
             class="text-gray-700 text-lg font-semibold hover:text-blue-600 transition-colors duration-300"
@@ -79,7 +79,7 @@
         </nav>
         <a
           href="#contacto"
-          class="ml-4 px-5 py-2 bg-[#2563EB] text-white text-lg font-semibold rounded-md hover:bg-blue-700 transition-colors duration-300"
+          class="mt-2 md:mt-0 ml-0 md:ml-4 px-5 py-2 bg-[#2563EB] text-white text-lg font-semibold rounded-md hover:bg-blue-700 transition-colors duration-300"
           >Contáctanos</a
         >
       </div>
@@ -92,7 +92,7 @@
         background-image: url(&quot;./assets/images/hero-bg-office.png&quot;);
       "
     >
-      <div class="max-w-2xl mx-auto px-4 text-center text-white">
+      <div class="max-w-xl mx-auto px-4 text-center text-white">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
           Despídete de los bidones: agua fría y caliente al instante
         </h1>
